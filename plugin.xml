@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin name="TE Tech - Confirm Export" xmlns="http://plugin.powerschool.pearson.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" description="Hide export play button and add confirmation" version="23.2.22.15" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd">
+  <publisher name="Benjamin Kemp">
+    <contact email="kempb@tesd.net"/>
+  </publisher>
+</plugin>
