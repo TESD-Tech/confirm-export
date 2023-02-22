@@ -1,0 +1,14 @@
+<!-- START exporttemplates.ps-confirm-export.page.header.txt -->
+<style>
+  [id^='runNowButton_'] {
+    display: none;
+  }
+</style>
+<script>
+  const confirmRunNow = (el) => {
+    const targetEl = document.getElementById(el.getAttribute('target'))
+    if (confirm('Click "OK" to start upload.'))
+      targetEl.click()
+  }
+</script>
+<!-- END exporttemplates.ps-confirm-export.page.header.txt -->

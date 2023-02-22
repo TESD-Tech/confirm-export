@@ -1,0 +1,13 @@
+<!-- START exporttemplates.ps-confirm-export.content.footer.txt -->
+<script>
+    document.querySelectorAll("[id^='runNowButton_']").forEach((e) => {
+      const targetId = e.getAttribute('id')
+      const clone = e.cloneNode(true)
+      clone.setAttribute('target', targetId)
+      clone.setAttribute('id', `prompt-${targetId}` )
+      clone.setAttribute('data-ng-click', '')
+      clone.setAttribute('onclick', `confirmRunNow(this)`)
+      e.parentElement.append(clone)
+    })
+</script>
+<!-- END exporttemplates.ps-confirm-export.content.footer.txt -->
