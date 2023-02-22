@@ -1,4 +1,4 @@
-## TE Tech PowerSchool Plugin
+# TE Tech PowerSchool Plugin
 
 This adds hides the regular "play" button for exports on the "Scheduled System Templates" tab and adds a button that incorporates a confirmation step.
 
