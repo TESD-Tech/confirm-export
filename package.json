@@ -1,6 +1,6 @@
 {
   "name": "te-tech-confirm-export",
-  "version": "23.2.22.16",
+  "version": "23.2.23.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
-    "@tesd-tech/ps-package": "23.2.2-2.3",
+    "@tesd-tech/ps-package": "23.2.2-2.21",
     "eslint": "^8.34.0",
     "typescript": "^4.9.5"
   }
